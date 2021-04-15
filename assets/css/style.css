@@ -1,3 +1,7 @@
 .col-sm {
-    background-color: aqua;
+    background-color: darkgrey;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 2rem;
 }
