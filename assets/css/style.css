@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+.top-bar {}
+
 .col-sm {
     background-color: darkgrey;
 }
@@ -12,7 +14,7 @@ body {
 }
 
 .hannah {
-    width: 50%;
+    width: 80%;
 }
 
 .banana {
@@ -27,6 +29,10 @@ body {
 }
 
 .second-header {
+    text-align: center;
+}
+
+.first-text {
     text-align: center;
 }
 
