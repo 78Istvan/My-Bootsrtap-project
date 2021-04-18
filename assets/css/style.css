@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: darkgray;
 }
 
-.top-bar {}
 
 .col-sm {
     background-color: darkgrey;
@@ -33,7 +33,23 @@ body {
 }
 
 .first-text {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.second-text {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.four-text {
     text-align: center;
+    font-size: larger;
+    margin: revert;
+}
+
+#about {
+    background-color: darkgray;
 }
 
 .hannahb {
@@ -89,4 +105,8 @@ h2 {
 .first-cont {
     background-color: darkgrey;
     padding-top: 2rem;
+}
+
+.third-header {
+    margin-bottom: revert;
 }

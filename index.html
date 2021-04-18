@@ -15,7 +15,7 @@
 
 <body>
     <!--Navbar-->
-    <section class="top-bar">
+    <section id="home" class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -27,16 +27,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-label="Go to home section" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-label="Go to about section" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Where is my favourite dog?">Contact</a>
+                            <a class="nav-link" aria-label="Go to contact section" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Where is my favourite dog?">Sign Up</a>
+                            <a class="nav-link" href="Where is my favourite dog?">SignUp</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Where is my favourite dog?">Gallery</a>
@@ -62,45 +62,114 @@
                 </div>
             </div>
         </div>
-        <div class="containet-fluid first-cont">
+        <div class="containet-fluid first-cont mb-2">
             <div class="row">
-                <div class="col-sm-12 col-md-3 banana">
+                <div class="col-sm-12 col-md-12 col-lg-3 banana">
                     <h3 class="middle-text">Why Cat</h3>
                     <p class="first-text">
                         When you think to buy your first pet you should think about what is your favourit one.
                         It colud be a cat or a dog but first you shoud know are you a dog or a cat person.
+                        Cats communicate by marking trees, fence posts, or furniture with their claws or their waste.
+                        These scent posts are meant to inform others of a cat's home range. House cats employ a vocal
+                        repertoire that extends from a purr to a screech.
                     </p>
-                </div>
-                <div class="col col-md-6 col-sm-12 banana">
-
-                    <h3 class="middle-text">What is your pet</h3>
-                    <img src="https://www.petmd.com/sites/default/files/styles/article_image/public/petmd-puppy-weight.jpg?itok=IwMOwGSX"
-                        class="img-fluid hannah" alt="puppies">
                     <div class="button">
                         <button type="button" class="btn btn-outline-secondary btn-grad btn-sm">Read
                             More</button>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 banana">
+
+                <div class="col col-sm-12 col-md-12  col-lg-6 banana">
+
+                    <h3 class="middle-text">What is your pet</h3>
+                    <img src="https://www.petmd.com/sites/default/files/styles/article_image/public/petmd-puppy-weight.jpg?itok=IwMOwGSX"
+                        class="img-fluid hannah" alt="puppies">
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3 banana">
                     <h3 class="middle-text">Why Dog</h3>
-                    <p class="first-text">
+                    <p class="second-text">
                         When you think to buy your first pet you should think about what is your favourit one.
                         It colud be a cat or a dog but first you shoud know are you a dog or a cat person.
+                        Today, some dogs are used as pets while others are used to help humans do their work.
+                        Dogs are popular pets because they are usually playful, friendly, and listen well to humans.
+                        Thirty million dogs in the United States are registered as pets. Dogs eat both meat and
+                        vegetables,
+                        often mixed together and sold in stores as dog food. Dogs often have jobs, including police
+                        dogs,
+                        army dogs, service dogs, fire dogs, messenger dogs, hunting dogs, herding dogs, or rescue dogs.
                     </p>
+                    <div class="button">
+                        <button type="button" class="btn btn-outline-secondary btn-grad btn-sm">Read
+                            More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="second-header">Contact</h2>
+                    <P class="four-text">
+                        For more information about our dogs and cats drop us a line into the contact form below.
+                    </P>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-outline-secondary btn-grad btn-sm">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Next section-->
-    <div class="container">
+    <!--Gallery-->
+    <section id="gallery">
+        <h2 class="third-header">Gallery</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <h2 class="second-header">Where is my favourite dog?</h2>
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="https://petsittersireland.com/wp-content/uploads/2018/09/Puppies-Versus-Kittens.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="cat and puppi" />
 
+                <img src="https://www.thelabradorsite.com/wp-content/uploads/2020/05/10-tips.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="https://www.thelabradorsite.com/wp-content/uploads/2015/07/buying-a-chocolate-labrador-puppy.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                <img src="https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="https://pbs.twimg.com/media/Dk341BBW0AAJzWk.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                    alt="" />
+
+                <img src="https://www.allthingsdogs.com/wp-content/uploads/2020/07/French-Bulldog-678x381.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="https://i.pinimg.com/originals/0f/0d/87/0f0d87779573583b11643cde62767ab3.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="cat and puppi" />
+
+                <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2018/05/02112816/puppy-with-cat-header.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
             </div>
         </div>
-    </div>
-
+        <!-- Gallery -->
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
