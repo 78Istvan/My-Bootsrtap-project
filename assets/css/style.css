@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .col-sm {
     background-color: darkgrey;
 }
@@ -54,7 +59,7 @@
 }
 
 .middle-text {
-
+    margin-bottom: revert;
     text-align: center;
 
 }
@@ -68,4 +73,14 @@ h2 {
     text-align: center;
     background-color: darkgrey;
     margin: 0;
+    margin-top: 1rem;
+}
+
+.first-heading {
+    background-color: darkgrey;
+}
+
+.first-cont {
+    background-color: darkgrey;
+    padding-top: 2rem;
 }
